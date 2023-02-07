@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        body{
+            background: url(./../image/Background.jpg);
+            background-size: cover;
+            margin: 0px;
+            padding: 0px;
+        }
+        .container{
+            display: flex;
+            text-align: center;
+            align-items: center;
+            height: 90px;
+            width:unset;
+            background-color: #ffffb3;
+              justify-content: end;
+              box-shadow: 5px;
+          }
+          .nav-container{
+            display:flex;
+            margin-left: 20px;
+            margin-right: 20px;
+            flex-direction: row;
+            font-size: 30px;
+            justify-content: space-between;
+            font-weight: bold;
+            padding-left: 10px;
+          
+          }
+          .nav-container:hover{
+            background-color: dimgray;
+            cursor: pointer;
+            transition: 3sec;
+          }
+          .img{
+              height: 10px;
+              width: 10px;
+          }
+          .logo{
+            height: 80px;
+            width: 80px;
+            margin-right: auto;
+            margin-left: 20px;
+         }
+         .title{
+            margin-left: 20px;
+            color: #660000;
+            font-weight:bolder;
+            font-style: italic;
+            font-size: 70px;
+            box-shadow: 5px black;
+            text-shadow: 5px black;
+    
+         }
+    </style>
+    
+
+    
+
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="title"> Cup o'Joe</h2>
+        
+            <img src="./../image/toast.png" class="logo">
+      
+      <div class="nav-container"> Home</div>
+      <div class="nav-container">Log in</div>
+      <div class="nav-container">Sign up</div>
+      <div class="nav-container">Contact us</div>
+    </div>
+    
+</body>
+</html>
